@@ -22,12 +22,13 @@ body{
 
 #Accueil{
     background-image: url(./flowers.png);
-    background-size: cover;
+    background-attachment: fixed;
+    background-size: contain;
     position: relative;
 }
 #photo{ 
     position: relative;
-    left: 40%;
+    left: 45%;
     top: 10%;
     width: 20%;
 }
@@ -48,6 +49,7 @@ ul{
 
 main{
     background-color: white;
+    background-attachment: fixed;
     margin-top: 1%;
 }
 .grille{
@@ -69,6 +71,7 @@ h3{
 }
 #educ{
     background-color: rgb(239, 224, 252);
+    background-attachment: fixed;
     grid-column: 2;
     grid-row: 2;
 }
@@ -82,24 +85,28 @@ h3{
 
 #competence{
     background-color: rgb(239, 224, 252);
+    background-attachment: fixed;
     grid-column: 1;
     grid-row: 1;
     
 }
 #pro{
     background-color: rgb(239, 224, 252);
+    background-attachment: fixed;
     grid-column: 1;
     grid-row: 3;
 }
 
 footer{
     background-color:#bfa8c9;
+    background-attachment: fixed;
     color: white;
     display: flex;
     justify-content: space-around;
 }
 .cercle{
     background-color:#bfa8c9;
+    background-attachment: fixed;
     background-size: cover;
     grid-column: 2;
     grid-row: 1;
@@ -107,6 +114,7 @@ footer{
 
 .rien{
     background-image: url(./lettre.png);
+    background-attachment: fixed;
     background-size: cover;
     grid-column: 1;
     grid-row: 2;
@@ -114,6 +122,7 @@ footer{
 
 .contact{
     background-image: url(./marbre.png);
+    background-attachment: fixed;
     background-size: cover;
     grid-column: 2;
     grid-row: 3;
