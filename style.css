@@ -22,15 +22,16 @@ body{
 
 #Accueil{
     background-image: url(./flowers.png);
-    background-attachment: fixed;
-    background-size: contain;
+    background-size: cover;
     position: relative;
 }
 #photo{ 
     position: relative;
     left: 45%;
-    top: 10%;
+    top: 15%;
     width: 20%;
+    clip-path:ellipse(50% 45%);
+    
 }
 h2{
     position: relative;
@@ -114,7 +115,6 @@ footer{
 
 .rien{
     background-image: url(./lettre.png);
-    background-attachment: fixed;
     background-size: cover;
     grid-column: 1;
     grid-row: 2;
@@ -122,7 +122,6 @@ footer{
 
 .contact{
     background-image: url(./marbre.png);
-    background-attachment: fixed;
     background-size: cover;
     grid-column: 2;
     grid-row: 3;
@@ -171,11 +170,12 @@ h1 {
   }
   
   .progressbar[title="downloading"] {
-     background-color: var(--progress);
+    background-color: var(--progress);
   }
   
   .progressbar[title="downloaded"] {
-     background-color: var(--success);
+    background-color: var(--success);
+    
   }
     
   .pyt {
