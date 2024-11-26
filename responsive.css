@@ -1,0 +1,39 @@
+@media screen and (max-width:425px){
+    .grille{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 2fr);
+        gap: 10px;
+        grid-auto-rows: minmax(100%, auto);
+    }
+    #educ{
+        grid-column: 1;
+        grid-row: 3;
+    }
+    #competence{
+        grid-column: 1;
+        grid-row: 1;
+    }
+    #pro{
+        grid-column: 1;
+        grid-row: 5;
+    }
+    .cercle{
+        grid-column: 1;
+        grid-row: 2;
+    }
+    
+    .rien{
+        grid-column: 1;
+        grid-row: 4;
+    }
+    
+    .contact{
+        grid-column: 1;
+        grid-row: 6;
+    
+    }
+    header{
+        
+
+    }
+}
